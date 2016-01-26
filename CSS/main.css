@@ -1,0 +1,217 @@
+.title{
+    height: 56px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.sign-block{
+    width: 160px;
+    float: left;
+}
+.sign{
+    margin-left: 6px;
+    margin-right: 6px;
+    float: left;
+    line-height: 56px;
+    font-size: 16px;
+    color:#4A4A4A;
+}
+.city{
+    overflow: hidden;
+    line-height: 56px;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+.list{
+    width: 100%;
+}
+.control-desk{
+    overflow: hidden;
+    float: left;
+    line-height: 56px;
+    list-style:none;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-size: 16px;
+    color:#4A4A4A ;
+}
+.employee{
+    overflow: hidden;
+    float: left;
+    line-height: 56px;
+    list-style:none;
+    margin-right: 50px;
+    font-size: 16px;
+    color:#4A4A4A ;
+}
+.setting{
+    overflow: hidden;
+    float: left;
+    line-height: 56px;
+    list-style:none;
+    font-size: 16px;
+    color:#4A4A4A ;
+}
+.second-block{
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+}
+.visitor{
+    margin-left: 25px;
+    float: left;
+    line-height: 48px;
+    font-size: 14px;
+}
+.pre-register{
+    overflow: hidden;
+    padding-left: 50px;
+    line-height: 48px;
+    font-size: 14px;
+}
+.third-block{
+    margin-left: 42px;
+    margin-top: 24px;
+    margin-right: 40px;
+    float: left;
+}
+.fourth-block{
+    overflow: hidden;
+    width: 640px;
+    margin-right: 42px;
+}
+.visitor-list{
+    position:absolute;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+    width: 640px;
+    line-height: 70px;
+    background: white;
+    text-align: left;
+    float: left;
+}
+.date-sign{
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 25px;
+    border: 1px solid #1CC263;
+    color: #1CC263;
+    margin-bottom: 6px;
+    margin-top: 39px;
+    float: right;
+    background: white;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.date-sign:hover{
+    background: #1CC263;
+    color: white;
+}
+.left-sign{
+    position: relative;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #1CC263;
+    background: white;
+    margin-bottom: 6px;
+    margin-top: 39px;
+    float: right;
+    border-radius: 3px;
+}
+.left-out{
+    position:absolute;
+    top:6px;
+    border-color:transparent  transparent  transparent #1CC263;
+    border-style:dashed dashed solid dashed;
+    border-width:7px;
+    display:block;
+    left: 11px;
+}
+.left-in{
+    position:absolute;
+    border-color:transparent  transparent  transparent #ffffff ;
+    border-style:dashed dashed solid  dashed;
+    border-width:8px;
+    top:-8px;
+    right:-6px;
+    display:block;
+}
+.right-sign{
+    position: relative;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #1CC263;
+    background: white;
+    margin-bottom: 6px;
+    margin-top: 39px;
+    float: right;
+    border-radius: 3px;
+
+}
+.right-out{
+    position:absolute;
+    top:6px;
+    border-color:transparent #1CC263 transparent transparent;
+    border-style:dashed dashed solid dashed;
+    border-width:7px;
+    line-height: 25px;
+    display:block;
+}
+.right-in{
+    position:absolute;
+    border-color:transparent #ffffff transparent transparent;
+    border-style:dashed dashed solid dashed;
+    border-width:8px;
+    top:-8px;
+    left:-6px;
+    line-height: 25px;
+    display:block;
+}
+.date{
+    border-bottom: #ccc;
+    border-bottom-width: 1px;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 70px;
+    width: 640px;
+    border-style:none none  solid none;
+}
+.pre-register-sign{
+    border-bottom: 1px solid #ccc;
+    height: 48px;
+    width: 640px;
+}
+.visitor-name-sign{
+    height: 48px;
+    width: 200px;
+    line-height: 48px;
+    padding-left: 10px;
+    z-index: 3;
+    float: left;
+}
+.receive-sign{
+    text-align: center;
+    height: 48px;
+    width: 200px;
+    overflow: hidden;
+    line-height: 48px;
+    z-index: 3;
+    float: left;
+}
+.register-time-sign{
+    line-height: 48px;
+    overflow: hidden;
+    height: 48px;
+    width: 220px;
+    z-index: 3;
+    text-align:right;
+}
+div{
+    display: block;
+}
+body{
+    margin: 0;
+}
