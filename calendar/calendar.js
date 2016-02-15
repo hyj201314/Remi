@@ -180,7 +180,4 @@ day = {this.state.day} />
 )
 }
 });
-React.render(
-<CalendarControl />,
-    document.getElementById("calendar")
-);
+window.CalendarControl = CalendarControl
